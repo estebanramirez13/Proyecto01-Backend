@@ -1,5 +1,5 @@
 // filepath: c:\Users\esteb\OneDrive - Universidad del Norte\Proyecto01-Backend\src\book\v1\book.controller.ts
-import Book, { BookType } from "./book.model";
+import Book, { BookType } from "./v1/book.model";
 import { FilterQuery } from "mongoose";
 
 export async function createBook(data: Partial<BookType>) {
